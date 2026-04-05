@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
-    <title>Focus - Concentration Tips</title>
+    <title>Focus - Концентрация внимания</title>
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
 
-    <!-- Stylesheets -->
+    <!-- Stylesheets - correct order: variables first, then globals, then style, then themes -->
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
@@ -23,7 +23,7 @@
               class="header__theme-menu-button header__theme-menu-button_type_dark"
               type="button"
             >
-              Неон
+              неон
             </button>
           </li>
           <li class="header__theme-menu-item">
@@ -32,7 +32,7 @@
               type="button"
               disabled
             >
-              Авто
+              авто
             </button>
           </li>
           <li class="header__theme-menu-item">
@@ -40,24 +40,27 @@
               class="header__theme-menu-button header__theme-menu-button_type_light"
               type="button"
             >
-              День
+              день
             </button>
           </li>
         </ul>
       </nav>
       <div class="header__rec" aria-hidden="true">REC</div>
       <h1 class="header__title">no<br />focus</h1>
-      <p class="header__text title-decor">
-        Что делать, когда не можешь делать ничего<br />
-        Или почему нам так сложно сконцентрироваться, особенно в конце года
-      </p>
+      <div class="header__text-wrapper">
+        <p class="header__text title-decor">
+          Что делать, когда не можешь делать ничего<br />
+          Или почему нам так сложно сконцентрироваться, особенно когда очень
+          надо
+        </p>
+      </div>
       <div class="header__corner header__corner--top-right"></div>
       <div class="header__corner header__corner--bottom-left"></div>
     </header>
 
     <main class="main">
       <section class="section section--why">
-        <h2 class="section__title">Почему сосредоточиться так сложно</h2>
+        <h2 class="section__title">Почему сосредоточиться<br />так сложно</h2>
         <div class="section__content">
           <article class="card">
             <h3 class="card__title title-decor">Многозадачность</h3>
@@ -89,7 +92,9 @@
       </section>
 
       <section class="section section--what">
-        <h2 class="section__title">Что ещё может влиять на концентрацию</h2>
+        <h2 class="section__title">
+          Что ещё может<br />влиять на концентрацию
+        </h2>
         <div class="section__content">
           <article class="card card--wide">
             <h3 class="card__title title-decor">Многозадачность</h3>
@@ -194,31 +199,31 @@
           <img
             class="gallery__image"
             src="./images/sunset.jpg"
-            alt="Beautiful sunset over mountains"
+            alt="Закат над горами"
             loading="lazy"
           />
           <img
             class="gallery__image"
             src="./images/books.jpg"
-            alt="Stack of books for reading"
+            alt="Стопка книг для чтения"
             loading="lazy"
           />
           <img
             class="gallery__image"
             src="./images/walk.jpg"
-            alt="Person walking in forest path"
+            alt="Человек гуляет по лесной тропинке"
             loading="lazy"
           />
           <img
             class="gallery__image"
             src="./images/music.jpg"
-            alt="Headphones and relaxing music"
+            alt="Наушники для прослушивания музыки"
             loading="lazy"
           />
           <img
             class="gallery__image"
             src="./images/food.jpg"
-            alt="Healthy food selection"
+            alt="Полезная еда"
             loading="lazy"
           />
         </div>
@@ -226,7 +231,7 @@
     </main>
 
     <footer class="footer">
-      <h2 class="footer__title">no<br />focus</h2>
+      <h2 class="footer__title">focus</h2>
       <div class="footer__corner footer__corner--top-right"></div>
       <div class="footer__corner footer__corner--bottom-left"></div>
     </footer>

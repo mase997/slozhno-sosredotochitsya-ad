@@ -9,6 +9,10 @@
   --card-title-color: #000028;
   --link-shadow-color: #ff0070;
   --corner-color: #ff0070;
+  --rec-color: #ff0070;
+  --button-color: #ff0070;
+  --button-border-color: #ff0070;
+  --button-hover-border: rgba(255, 0, 112, 0.4);
 
   --font-family: "IBM Plex Mono", monospace;
   --font-size-base: 18px;
