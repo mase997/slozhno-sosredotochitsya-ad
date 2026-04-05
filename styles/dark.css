@@ -11,3 +11,7 @@
   --corner-color: #ff0070;
   --bg-image: url("../images/background-dark.jpg");
 }
+
+:root.theme-light .header__rec {
+  display: none;
+}
