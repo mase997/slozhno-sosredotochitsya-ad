@@ -20,21 +20,21 @@
       <span class="header__rec" aria-hidden="true">REC</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
-          <li class="header__theme-menu-item">
+          <li>
             <button
               class="header__theme-menu-button header__theme-menu-button_type_light"
             >
               День
             </button>
           </li>
-          <li class="header__theme-menu-item">
+          <li>
             <button
               class="header__theme-menu-button header__theme-menu-button_type_auto"
             >
               Авто
             </button>
           </li>
-          <li class="header__theme-menu-item">
+          <li>
             <button
               class="header__theme-menu-button header__theme-menu-button_type_dark"
             >
@@ -55,7 +55,7 @@
         <h2 class="section__title title-decor">
           Почему сложно сосредоточиться?
         </h2>
-        <div class="section__column">
+        <div class="section__content">
           <article class="article">
             <h3 class="article__title title-decor">Многозадачность</h3>
             <p class="article__text">
@@ -76,37 +76,70 @@
         </div>
       </section>
 
-      <section class="section gallery">
+      <section class="section">
+        <h2 class="section__title title-decor">
+          Что снижает концентрацию внимания?
+        </h2>
+        <div class="section__content">
+          <article class="article">
+            <h3 class="article__title title-decor">Многозадачность</h3>
+            <p class="article__text">
+              Как концентрация может снижаться из-за... концентрации? Любая
+              стрессовая ситуация заставляет наш мозг постоянно «сканировать»
+              окружающую среду на предмет опасности. Концентрация — мышца, и она
+              может не выдержать.
+            </p>
+          </article>
+          <article class="article">
+            <h3 class="article__title title-decor">Еда</h3>
+            <p class="article__text">
+              «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
+              доставляют в мозг энергию. Но уходит эта энергия так же быстро. В
+              результате мы чувствуем усталость и сонливость.
+            </p>
+          </article>
+          <article class="article">
+            <h3 class="article__title title-decor">Гаджеты</h3>
+            <p class="article__text">
+              Мозг пытается переключиться с одной задачи на другую — и просто не
+              может. А чтобы вернуться к состоянию полной концентрации, человеку
+              в среднем нужно 20 минут.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
         <h2 class="section__title title-decor">А можно в картинках?</h2>
-        <div class="gallery__grid">
+        <div class="gallery">
           <img
             class="gallery__image"
             src="./images/sunset.png"
-            alt="Вид на закат через цифровые помехи"
+            alt="Закат"
             loading="lazy"
           />
           <img
             class="gallery__image"
             src="./images/ice-cream.png"
-            alt="Розовое мороженое на ярком фоне"
+            alt="Мороженое"
             loading="lazy"
           />
           <img
             class="gallery__image"
             src="./images/tape.png"
-            alt="Аудиокассета в стиле ретро"
+            alt="Кассета"
             loading="lazy"
           />
           <img
             class="gallery__image"
             src="./images/books.png"
-            alt="Стопка старых книг"
+            alt="Книги"
             loading="lazy"
           />
           <img
             class="gallery__image"
             src="./images/street.png"
-            alt="Городская улица в неоновом освещении"
+            alt="Улица"
             loading="lazy"
           />
         </div>
@@ -114,7 +147,7 @@
 
       <section class="section">
         <h2 class="section__title title-decor">5 простых советов</h2>
-        <div class="section__column">
+        <div class="section__content">
           <article class="article">
             <h3 class="article__title">Представьте небо</h3>
             <p class="article__text">
@@ -126,8 +159,8 @@
           <article class="article">
             <h3 class="article__title">Включите музыку</h3>
             <p class="article__text">
-              Но не любую. Подойдёт тихая, спокойная, умеренно-ритмичная. Можно
-              попробовать белый шум или нейромузыку.
+              Подойдёт тихая, спокойная, умеренно-ритмичная. Можно попробовать
+              белый шум или нейромузыку.
             </p>
           </article>
         </div>
@@ -138,6 +171,6 @@
       <h2 class="footer__title">focus</h2>
     </footer>
 
-    <script src="./scripts/set-theme.js" defer></script>
+    <script src="./scripts/set-theme.js"></script>
   </body>
 </html>

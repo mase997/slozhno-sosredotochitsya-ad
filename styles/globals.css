@@ -6,45 +6,31 @@
 
 .page {
   margin: 0;
-  padding: 0;
-  font-family: var(--main-font, sans-serif);
-  font-size: 18px;
   background-color: var(--bg-color);
   color: var(--text-color);
+  font-family: var(--main-font);
   background-image: var(--bg-image);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  min-inline-size: 320px;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
 }
 
 h1,
 h2,
 h3,
 p,
-ul,
-li {
+ul {
   margin: 0;
   padding: 0;
-}
-
-ul {
   list-style: none;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-  font-family: inherit;
-  font-size: inherit;
-}
-
-img {
-  max-inline-size: 100%;
-  block-size: auto;
-  object-fit: cover;
 }
