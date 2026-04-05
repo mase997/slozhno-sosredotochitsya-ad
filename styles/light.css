@@ -1,24 +1,8 @@
 :root.theme-light {
   --bg-color: #f1b2ce;
   --text-color: #000028;
-  --accent-color: #ff0070;
-  --shadow-color: #ff0070;
   --bg-image: url("../images/cover-image-light.png");
-  --title-color: #000028;
 }
-
 :root.theme-light .header__rec {
   display: none;
-}
-
-@media (prefers-color-scheme: light) {
-  :root:not(.theme-dark) {
-    --bg-color: #f1b2ce;
-    --text-color: #000028;
-    --bg-image: url("../images/cover-image-light.png");
-  }
-
-  :root:not(.theme-dark) .header__rec {
-    display: none;
-  }
 }
