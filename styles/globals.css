@@ -1,42 +1,49 @@
-/* Глобальные стили для проекта, их можно дополнять и менять по желанию */
-
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-  min-inline-size: 375px;
-  max-inline-size: 1440px;
-  margin: 0 auto;
+    min-width: 320px;
+    min-height: 100vh;
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+button {
+    font-family: inherit;
+    cursor: pointer;
+    background: none;
+    border: none;
 }
 
-picture {
-  margin: 0;
-  padding: 0;
-}
-
-button,
 a {
-  color: currentColor;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
 }

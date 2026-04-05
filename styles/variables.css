@@ -1,4 +1,23 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+    --bg-color: #000028;
+    --text-color: #F1B2CE;
+    --title-color: #DB00FF;
+    --accent-color: #FF0070;
+    --decor-color: #FF0070;
+    --section-title-color: #FF0070;
+    --card-title-bg: #FF0070;
+    --card-title-color: #000028;
+    --link-shadow-color: #FF0070;
+    --corner-color: #FF0070;
+    
+    --font-family: 'IBM Plex Mono', monospace;
+    --font-size-base: 18px;
+    --line-height-base: 1.3;
+    
+    --container-padding: 10px;
+    --section-gap: 50px;
+    --card-gap: 20px;
+    
+    --header-height: 100vh;
+    --footer-height: 100vh;
+}
