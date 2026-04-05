@@ -3,23 +3,30 @@
 *::after {
   box-sizing: border-box;
 }
+
 .page {
   margin: 0;
-  font-family: var(--main-font);
   background-color: var(--bg-color);
   color: var(--text-color);
+  font-family: var(--main-font);
   background-image: var(--bg-image);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 button {
   cursor: pointer;
+  background: transparent;
   border: none;
-  background: none;
-}
-img {
-  display: block;
-  max-inline-size: 100%;
-  object-fit: cover;
 }
