@@ -1,19 +1,10 @@
 :root.theme-light {
-  --bg-color: #fff1f7;
-  --text-color: #353430;
-  --title-color: #ffc2e6;
-  --accent-color: #ff8dcb;
-  --decor-color: #353430;
-  --section-title-color: #353430;
-  --card-title-bg: #ff8dcb;
-  --card-title-color: #353430;
-  --link-shadow-color: #ff8dcb;
-  --corner-color: #353430;
-  --rec-color: #353430;
-  --button-color: #353430;
-  --button-border-color: #353430;
-  --button-hover-border: rgba(50, 49, 45, 0.4);
-  --bg-image: url("../images/background-light.jpg");
+  --bg-color: #f1b2ce;
+  --text-color: #000028;
+  --accent-color: #ff0070;
+  --shadow-color: #ff0070;
+  --bg-image: url("../images/cover-image-light.png");
+  --title-color: #000028;
 }
 
 :root.theme-light .header__rec {
@@ -21,25 +12,13 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    --bg-color: #fff1f7;
-    --text-color: #353430;
-    --title-color: #ffc2e6;
-    --accent-color: #ff8dcb;
-    --decor-color: #353430;
-    --section-title-color: #353430;
-    --card-title-bg: #ff8dcb;
-    --card-title-color: #353430;
-    --link-shadow-color: #ff8dcb;
-    --corner-color: #353430;
-    --rec-color: #353430;
-    --button-color: #353430;
-    --button-border-color: #353430;
-    --button-hover-border: rgba(50, 49, 45, 0.4);
-    --bg-image: url("../images/background-light.jpg");
+  :root:not(.theme-dark) {
+    --bg-color: #f1b2ce;
+    --text-color: #000028;
+    --bg-image: url("../images/cover-image-light.png");
   }
 
-  .header__rec {
+  :root:not(.theme-dark) .header__rec {
     display: none;
   }
 }

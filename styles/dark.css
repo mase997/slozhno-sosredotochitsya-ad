@@ -1,17 +1,8 @@
 :root.theme-dark {
   --bg-color: #000028;
   --text-color: #f1b2ce;
-  --title-color: #db00ff;
   --accent-color: #ff0070;
-  --decor-color: #ff0070;
-  --section-title-color: #ff0070;
-  --card-title-bg: #ff0070;
-  --card-title-color: #000028;
-  --link-shadow-color: #ff0070;
-  --corner-color: #ff0070;
-  --rec-color: #ff0070;
-  --button-color: #ff0070;
-  --button-border-color: #ff0070;
-  --button-hover-border: rgba(255, 0, 112, 0.4);
-  --bg-image: url("../images/background-dark.jpg");
+  --shadow-color: #ff0070;
+  --bg-image: url("../images/cover-image-dark.png");
+  --title-color: #000028;
 }
